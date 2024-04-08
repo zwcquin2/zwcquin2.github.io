@@ -1,5 +1,9 @@
 .index-body {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(/img/Image.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(/img/background-img.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.navbar-brand {
+    font-family: "Poppins", sans-serif;
 }
