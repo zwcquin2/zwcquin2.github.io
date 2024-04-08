@@ -1,0 +1,5 @@
+.index-body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(/img/Image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
