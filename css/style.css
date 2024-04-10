@@ -1,9 +1,25 @@
+:root {
+    --red: rgb(123, 45, 38);
+    --grayish: rgb(98, 100, 100);
+    --oceanblueish: rgb(43, 65, 98);
+}
+
 .index-body {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(/img/background-img.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(/img/banner.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.navbar-brand {
+.navbar,
+.title,
+.lead {
     font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+    background-color: var(--oceanblueish);
+}
+
+.hl {
+    color: var(--red);
 }
