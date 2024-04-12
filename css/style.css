@@ -2,6 +2,7 @@
     --red: rgb(123, 45, 38);
     --grayish: rgb(98, 100, 100);
     --oceanblueish: rgb(43, 65, 98);
+    --lighttransparent: #f9f9f90a;
 }
 
 .index-body {
@@ -15,8 +16,8 @@
     font-family: "Poppins", sans-serif;
 }
 
-.navbar {
-    background-color: var(--oceanblueish);
+.collapse {
+    background-color: var(--lighttransparent);
 }
 
 .hl,
@@ -24,7 +25,6 @@
     color: var(--red);
 }
 
-.button,
-.collapse {
+.button {
     background-color: var(--grayish);
 }
