@@ -20,11 +20,39 @@
     background-color: var(--lighttransparent);
 }
 
-.hl,
 .red {
     color: var(--red);
 }
 
+.hl {
+    color: var(--oceanblueish);
+}
+
 .button {
     background-color: var(--grayish);
+}
+
+/* met de code hieronder geef ik een hover effect aan mijn naam links boven op de homepage */
+
+.navbar-brand {
+    color: #bdbdbd;
+}
+
+.navbar-brand:after {
+    content: "";
+    position: absolute;
+    background-color: var(--red);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: 0px;
+    transition: 0.3s;
+}
+
+.navbar-brand:hover{
+    color: #ffffff;
+}
+
+.navbar-brand:hover:after {
+    width: 100%;
 }
