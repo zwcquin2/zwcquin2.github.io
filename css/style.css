@@ -16,29 +16,19 @@
     font-family: "Poppins", sans-serif;
 }
 
-.collapse {
-    background-color: var(--lighttransparent);
-}
-
-.red {
+.red{
     color: var(--red);
 }
 
-.list a {
-    color: white;
-}
-
-.hl {
+.vr {
     color: var(--oceanblueish);
-}
-
-.button {
-    background-color: var(--grayish);
+    width: 5px;
 }
 
 /* met de code hieronder geef ik een hover effect aan mijn naam links boven op de homepage */
 
-.navbar-brand {
+.navbar-brand,
+.link {
     color: #bdbdbd;
 }
 
@@ -49,14 +39,35 @@
     height: 3px;
     width: 0;
     left: 0;
-    bottom: -10px;
+    bottom: -5px;
     transition: 0.3s;
 }
 
-.navbar-brand:hover{
+.navbar-brand:hover,
+.link:hover {
     color: #ffffff;
 }
 
 .navbar-brand:hover:after {
     width: 100%;
+}
+
+/* en nu met geef ik ook nog een hover effect aan de linkjes aan de rechter kant van het beeld */
+
+.link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--red);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
