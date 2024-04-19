@@ -1,10 +1,5 @@
 /* met de code hieronder geef ik een hover effect aan mijn naam links boven op de homepage */
 
-.navbar-brand,
-.link {
-    color: #bdbdbd;
-}
-
 .navbar-brand:after {
     content: "";
     position: absolute;

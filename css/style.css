@@ -1,12 +1,13 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
 :root {
     --red: rgb(123, 45, 38);
     --grayish: rgb(98, 100, 100);
     --oceanblueish: rgb(43, 65, 98);
+    --lightgray: rgb(192, 192, 192);
     --lighttransparent: #f9f9f90a;
-}
-
-html {
-    scroll-behavior: smooth;
 }
 
 .index-body {
@@ -15,20 +16,32 @@ html {
     background-repeat: no-repeat;
 }
 
-.navbar,
-.banner-text {
-    font-family: "Poppins", sans-serif;
+.navbar-brand,
+.link {
+    color: #bdbdbd;
 }
 
-.red{
+.red {
     color: var(--red);
 }
 
+.hr {
+    color: var(--grayish);
+}
+
 .vr {
-    color: var(--oceanblueish);
+    color: var(--red);
     width: 5px;
 }
 
 .about-me {
-    background-color: var(--grayish);
+    background-color: var(--oceanblueish);
+}
+
+.info {
+   background-color: var(--lightgray);
+}
+
+.title {
+    text-shadow: 2px 2px 4px #000000;
 }
