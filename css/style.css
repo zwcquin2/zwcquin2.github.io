@@ -6,14 +6,17 @@
     --red: rgb(123, 45, 38);
     --grayish: rgb(98, 100, 100);
     --oceanblueish: rgb(43, 65, 98);
-    --lightgray: rgb(192, 192, 192);
+    --lightgray: rgb(189, 189, 189);
     --lighttransparent: #f9f9f90a;
 }
 
 .index-body {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(/img/banner.png);
-    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(/img/background\ img.jpg);
     background-repeat: no-repeat;
+}
+
+.about-me-text {
+    font-family: "Lato", sans-serif;
 }
 
 .navbar-brand,
@@ -35,11 +38,11 @@
 }
 
 .about-me {
-    background-color: var(--oceanblueish);
+    background-color: rgb(0, 0, 0);
 }
 
 .info {
-   background-color: var(--lightgray);
+   background-color: var(--oceanblueish);
 }
 
 .title {
