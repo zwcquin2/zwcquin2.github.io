@@ -7,7 +7,6 @@
     --grayish: rgb(98, 100, 100);
     --oceanblueish: rgb(43, 65, 98);
     --lightgray: rgb(189, 189, 189);
-    --lighttransparent: #f9f9f90a;
 }
 
 .index-body {
@@ -35,14 +34,6 @@
 .vr {
     color: var(--red);
     width: 5px;
-}
-
-.about-me {
-    background-color: rgb(0, 0, 0);
-}
-
-.info {
-   background-color: var(--oceanblueish);
 }
 
 .title {
