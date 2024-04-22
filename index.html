@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 
 <head>
     <meta charset="UTF-8">
@@ -10,6 +10,7 @@
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animations.css">
     <title>Portfolio | Quin Chen</title>
@@ -29,18 +30,26 @@
 
 <body class="index-body bg-black">
 
-    <nav class="fixed-top">
+    <nav class="navbar navbar-expand-sm fixed-top">
         <div class="container-fluid">
-            <div class="navbar row mt-3 fs-5">
-                <div class="col-sm-4">
-                    <a class="navbar-brand fs-2 ms-3 position-relative" href="index.html">Quin Chen</a>
-                </div>
-                <div class="col-sm-4"></div>
-                <div class="col-sm-4 list d-flex justify-content-center gap-5">
-                    <a class="link text-decoration-none position-relative" href="#about">About Me</a>
-                    <a class="link text-decoration-none position-relative" href="#">Skills</a>
-                    <a class="link text-decoration-none position-relative" href="#">Projects</a>
-                </div>
+            <a class="navbar-brand fs-2 ms-3 position-relative" href="index.html">Quin Chen</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapisebleNavbar"
+                aria-controls="collapisebleNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list fs-1"></i>
+            </button>
+
+            <div class="collapse navbar-collapse me-5 pe-5 ms-3 mt-4" id="collapisebleNavbar">
+                <ul class="navbar-nav me-auto mb-2 mb-sm-0 justify-content-end w-100 gap-4">
+                    <li class="nav-item">
+                        <a class="link text-decoration-none position-relative fs-5" href="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="link text-decoration-none position-relative fs-5" href="#">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="link text-decoration-none position-relative fs-5" href="#">Projects</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
@@ -69,35 +78,32 @@
 
     <div id="about" class="container-fluid about-me rounded">
         <div class="row">
-            <div class="col-sm-2"></div>
-            <div class="col-sm-8 my-2 rounded p-4 shadow">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4 my-2 rounded p-4 shadow">
                 <h2 class="title text-center fw-bold text-white fs-2"><span class="red">1.</span>
                     About Me</h2>
                 <div class="d-flex flex-column justify-content-center align-items-center text-white">
-                    <div class="w-50">
-                        <hr class="hr border-5 rounded opacity-100 mb-4">
-                        <p class="about-me-text fs-5 mb-4">Hey, I'm Quin Chen, sixteen years old and born
-                            and
-                            raised in Rotterdam. I am a really enthusiastic, motivated and fast learner. Currently
-                            studying software development in Delft. </p>
-                        <p class="about-me-text fs-5 mb-4">I've always had a passion about computers since I was
-                            younger. It went from building PC's for my friends to building my own games with lua. So my
-                            hobby's are mainly learning new programming languages and I play baseball aswell.
-                        </p>
-                        <p class="about-me-text fs-5 mb-4">My knowlegde about languages are limited for now, since I'm
-                            in my
-                            first year as a software developer, but I'm highly motivated in learning new programming
-                            languages!</p>
-                        <p class="about-me-text fs-5 mb-4">When I'm not immersed in the digital world, you can find me
-                            working with motorbikes. My experience with bikes are really good aswell. I know how to
-                            build them, tune them and style them!</p>
-                        <p class="about-me-text fs-5 mb-4">As for my qualities I'm a really social, helpful and
-                            hard-working teammate. I'm very good at solving problems, which I do very often for my
-                            friends.</p>
-                    </div>
+                    <hr class="hr border-5 rounded opacity-100 w-100 mb-4">
+                    <p class="about-me-text fs-5 mb-4">Hey, I'm Quin Chen, sixteen years old and born
+                        and
+                        raised in Rotterdam. I am a really enthusiastic, motivated and fast learner. Currently
+                        studying software development in Delft. </p>
+                    <p class="about-me-text fs-5 mb-4">I've always had a passion about computers since I was
+                        younger. It went from building PC's for my friends to building my own games with lua. So my
+                        hobby's are mainly learning new programming languages and I play baseball aswell.
+                    </p>
+                    <p class="about-me-text fs-5 mb-4">My knowlegde about languages are limited for now, since I'm
+                        in my
+                        first year as a software developer, but I'm highly motivated in learning new programming
+                        languages!</p>
+                    <p class="about-me-text fs-5 mb-4">When I'm not immersed in the digital world, you can find me
+                        working with motorbikes. My experience with bikes are really good aswell. I know how to
+                        build them, tune them and style them!</p>
+                    <p class="about-me-text fs-5 mb-4">As for my qualities I'm a really social, helpful and
+                        hard-working teammate. I'm very good at solving problems, which I do very often for my
                 </div>
             </div>
-            <div class="col-sm-2"></div>
+            <div class="col-sm-4"></div>
         </div>
     </div>
 

@@ -10,7 +10,7 @@
 }
 
 .index-body {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(/img/background\ img.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(/img/background\ img.jpg);
     background-repeat: no-repeat;
 }
 
@@ -19,7 +19,8 @@
 }
 
 .navbar-brand,
-.link {
+.link,
+.bi-list {
     color: #bdbdbd;
 }
 
@@ -38,4 +39,8 @@
 
 .title {
     text-shadow: 2px 2px 4px #000000;
+}
+
+.about-me-text {
+    text-align: justify;
 }
