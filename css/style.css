@@ -14,8 +14,12 @@
     background-repeat: no-repeat;
 }
 
-.about-me-text {
+.text {
     font-family: "Lato", sans-serif;
+}
+
+.aligned {
+    text-align: justify;
 }
 
 .navbar-brand,
@@ -32,15 +36,39 @@
     color: var(--grayish);
 }
 
+.blue-hr {
+    color: var(--oceanblueish);
+}
+
 .vr {
     color: var(--red);
     width: 5px;
 }
 
 .title {
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 3px 3px 2px var(--red);
 }
 
-.about-me-text {
-    text-align: justify;
+.item {
+    width: 30%;
+}
+
+.html {
+    width: 80%;
+}
+
+.js {
+    width: 70%;
+}
+
+.bs {
+    width: 60%;
+}
+
+.njs {
+    width: 65%;
+}
+
+.xjs {
+    width: 55%;
 }
