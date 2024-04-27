@@ -10,7 +10,7 @@
 }
 
 .index-body {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(/img/background\ img.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(/img/background\ img.jpg);
     background-repeat: no-repeat;
 }
 
@@ -53,6 +53,10 @@
     width: 30%;
 }
 
+.project {
+    width: 50%;
+}
+
 .html {
     width: 80%;
 }
@@ -74,5 +78,5 @@
 }
 
 .navbar-scrolled {
-    background-color: rgba(77, 77, 77, 0.815); 
+    background-color: rgba(77, 77, 77, 0.815);
 }
