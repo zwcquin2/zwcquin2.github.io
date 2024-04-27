@@ -1,11 +1,15 @@
 console.log("File Loaded");
 
-const nav = document.querySelector(".navbar");
+// hier haal ik de navbar op met queryselector
+const navbar = document.querySelector(".navbar");
 
+//nu zorg ik ervoor dat de navbar een bg kleur krijgt wanneer je scrollt
 window.addEventListener('scroll', () => {
+    //wanneer de gebruiker 150px naar beneden scrollt, wordt de bg toegevoegd
     if (window.scrollY >= 150) {
-        nav.classList.add('navbar-scrolled');
+        navbar.classList.add('navbar-scrolled');
+        //wanneer de gebruiker op height: 0 zit gaat de bg weer weg :)
     } else if (window.scrollY < 150) {
-        nav.classList.remove('navbar-scrolled')
+        navbar.classList.remove('navbar-scrolled')
     }
 });
