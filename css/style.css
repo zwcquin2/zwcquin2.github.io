@@ -28,7 +28,8 @@
     color: #bdbdbd;
 }
 
-.red {
+.red,
+.vr {
     color: var(--red);
 }
 
@@ -41,7 +42,6 @@
 }
 
 .vr {
-    color: var(--red);
     width: 5px;
 }
 
@@ -71,4 +71,8 @@
 
 .xjs {
     width: 55%;
+}
+
+.navbar-scrolled {
+    background-color: rgba(77, 77, 77, 0.815); 
 }

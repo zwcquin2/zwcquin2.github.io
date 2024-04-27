@@ -1,4 +1,4 @@
-/* met de code hieronder geef ik een hover effect aan mijn naam links boven op de homepage */
+/* ill be making my hover effects on my navbar brand with the code underneath */
 
 .navbar-brand:after {
     content: "";
@@ -20,7 +20,7 @@
     width: 100%;
 }
 
-/* en nu met geef ik ook nog een hover effect aan de linkjes aan de rechter kant van het beeld */
+/* and now the hover effects on the links */
 
 .link::after {
     content: '';
@@ -38,4 +38,10 @@
 .link:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
+}
+
+/* i'll be giving my navbar a transition so the bg-color comes up or fades away smoothly */
+
+.navbar {
+    transition: all .3s;
 }
