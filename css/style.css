@@ -6,7 +6,7 @@
     --red: rgb(123, 45, 38);
     --grayish: rgb(98, 100, 100);
     --oceanblueish: rgb(43, 65, 98);
-    --lightgray: rgb(189, 189, 189);
+    --lightgray: rgb(160, 160, 160);
 }
 
 .index-body {
@@ -35,6 +35,10 @@
 
 .hr {
     color: var(--grayish);
+}
+
+.hline {
+    color: var(--red);
 }
 
 .blue-hr {
@@ -79,4 +83,8 @@
 
 .navbar-scrolled {
     background-color: rgba(77, 77, 77, 0.815);
+}
+
+.project {
+    background: var(--lightgray);
 }
