@@ -6,7 +6,7 @@
     --red: rgb(123, 45, 38);
     --grayish: rgb(98, 100, 100);
     --oceanblueish: rgb(43, 65, 98);
-    --lightgray: rgb(189, 189, 189);
+    --lightgray: rgb(48, 48, 48);
 }
 
 .index-body {
@@ -37,6 +37,10 @@
     color: var(--grayish);
 }
 
+.hline {
+    color: var(--red);
+}
+
 .blue-hr {
     color: var(--oceanblueish);
 }
@@ -49,12 +53,8 @@
     text-shadow: 3px 3px 2px var(--red);
 }
 
-.item {
+.item  {
     width: 30%;
-}
-
-.project {
-    width: 50%;
 }
 
 .html {
@@ -79,4 +79,8 @@
 
 .navbar-scrolled {
     background-color: rgba(77, 77, 77, 0.815);
+}
+
+.project {
+    background: var(--lightgray);
 }
