@@ -6,7 +6,7 @@
     --red: rgb(123, 45, 38);
     --grayish: rgb(98, 100, 100);
     --oceanblueish: rgb(43, 65, 98);
-    --lightgray: rgb(160, 160, 160);
+    --lightgray: rgb(48, 48, 48);
 }
 
 .index-body {
@@ -53,12 +53,8 @@
     text-shadow: 3px 3px 2px var(--red);
 }
 
-.item {
+.item  {
     width: 30%;
-}
-
-.project {
-    width: 50%;
 }
 
 .html {
