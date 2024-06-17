@@ -84,3 +84,7 @@
 .project {
     background: var(--lightgray);
 }
+
+.project-img {
+    width: 600px;
+}
