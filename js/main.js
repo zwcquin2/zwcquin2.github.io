@@ -2,9 +2,9 @@ console.log("File Loaded");
 
 // hier haal ik alle html  op met queryselector
 const navbar = document.querySelector(".navbar");
-const btnInspo = doucment.querySelector(".btn-inspo");
-const btnColor = doucment.querySelector(".btn-color");
-const btnSitemap = doucment.querySelector(".btn-sitemap");
+const btnInspo = document.querySelector(".btn-inspo");
+const btnColor = document.querySelector(".btn-color");
+const btnSitemap = document.querySelector(".btn-sitemap");
 
 //nu zorg ik ervoor dat de navbar een bg kleur krijgt wanneer je scrollt
 window.addEventListener('scroll', () => {
