@@ -7,6 +7,7 @@
     --grayish: rgb(98, 100, 100);
     --oceanblueish: rgb(43, 65, 98);
     --lightgray: rgb(48, 48, 48);
+    --white: rgb(255, 255, 255);
 }
 
 .index-body {
@@ -87,4 +88,13 @@
 
 .project-img {
     width: 600px;
+}
+
+.section {
+    height: 250px;
+    background-color: var(--white);
+}
+
+.info {
+    font-size: 14px
 }

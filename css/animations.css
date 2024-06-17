@@ -45,3 +45,37 @@
 .navbar {
     transition: all .3s;
 }
+
+#home {
+    animation-name: fadein;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+
+.vr {
+    animation-name: swipe;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes swipe {
+    from {
+        height: 0px;
+        opacity: 0;
+    }
+    to {
+        height: 170px;
+        opacity: 100;
+    }
+}
